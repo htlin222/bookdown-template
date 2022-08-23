@@ -3,6 +3,11 @@ bookdown::gitbook:
   config:
     toc:
       before: |
-        <li><a href="./">SHORT TITLE HERE</a></li>
+        <li><a href="./">please edit _output.yml</a></li>
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+    toolbar:
+      position: fixed
+      search: yes
+bookdown::pdf_book:
+    keep_tex: true

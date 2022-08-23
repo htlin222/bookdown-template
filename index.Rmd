@@ -4,10 +4,10 @@ author: "HT Lin"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 bibliography: references.bib
-csl: /Users/htlin/Zotero/csl/jama.csl
+csl: jama.csl
 link-citations: yes
 ---
 
-# Down the rabbit-hole
+# 如何顯示Citation
 
-see @ansellOverallSurvivalBrentuximab2022 and @armitageMantleCellLymphoma2022
+例如： @berentsenAutoimmuneHemolyticAnemias2021

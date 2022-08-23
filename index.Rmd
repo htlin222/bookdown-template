@@ -1,9 +1,13 @@
---- 
-title: "YOUR TITLE HERE"
-author: "YOUR NAME HERE"
+---
+title: "My awesome book"
+author: "HT Lin"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
+bibliography: references.bib
+csl: /Users/htlin/Zotero/csl/jama.csl
+link-citations: yes
 ---
 
 # Down the rabbit-hole
 
+see @ansellOverallSurvivalBrentuximab2022 and @armitageMantleCellLymphoma2022

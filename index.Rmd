@@ -1,13 +1,29 @@
 ---
-title: "My awesome book"
+title: "我的書"
 author: "HT Lin"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
-bibliography: references.bib
+bibliography: [references.bib, packages.bib]
 csl: jama.csl
 link-citations: yes
+colorlinks: yes
+lot: yes
+lof: yes
+geometry: [b5paper, tmargin=2.5cm, bmargin=2.5cm, lmargin=3.5cm, rmargin=2.5cm]
+description: "我的書書"
+github-repo: htlin222/bookdown-template
+cover-image: images/cover.jpg
 ---
 
-# 如何顯示Citation
+```{r setup, include=FALSE}
+options(
+  htmltools.dir.version = FALSE, formatR.indent = 2, width = 55, digits = 4
+)
 
-例如： @berentsenAutoimmuneHemolyticAnemias2021
+# 填上你需要用到的包，如 c('ggplot2', 'dplyr')
+lapply(c(), function(pkg) {
+  if (system.file(package = pkg) == '') install.packages(pkg)
+})
+```
+
+# 前言 {.unnumbered}

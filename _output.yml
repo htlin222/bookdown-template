@@ -9,5 +9,9 @@ bookdown::gitbook:
     toolbar:
       position: fixed
       search: yes
+    fontsettings:
+      theme: night
+    # download: [pdf, epub]
+    edit: https://github.com/htlin222/bookdown-template/edit/master/%s
 bookdown::pdf_book:
     keep_tex: true
